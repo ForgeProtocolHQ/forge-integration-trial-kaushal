@@ -1,0 +1,25 @@
+Forge Integration Trial — Evaluation License
+
+Copyright (c) 2026 ForgeProtocolHQ. All rights reserved.
+
+This repository and its contents (the "Materials") are provided SOLELY for the
+purpose of a time-boxed technical evaluation ("Trial").
+
+Grant. The designated trial candidate is granted a limited, non-exclusive,
+non-transferable, revocable license to fork this repository and to read, build,
+run, modify, and submit changes to the Materials VIA PULL REQUEST to the
+originating repository, exclusively for completing the Trial.
+
+Restrictions. Except as required to complete the Trial, the Materials may not be
+copied, redistributed, published, sublicensed, sold, or used for any production,
+commercial, or non-evaluation purpose. No rights are granted to any Forge
+trademark, brand, or proprietary system.
+
+No warranty. THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE MATERIALS OR THEIR USE.
+
+Not production software. The Materials are for evaluation only and must not be
+deployed to or used against any production or mainnet environment.

@@ -1,0 +1,30 @@
+{
+  "name": "forge-integration-trial",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Evaluation/trial monorepo: Forge Protocol SDK + BNB testnet integration demo. Not production software.",
+  "license": "SEE LICENSE IN LICENSE",
+  "packageManager": "pnpm@9.12.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r --filter \"./packages/*\" build && pnpm --filter demo build",
+    "dev": "pnpm --filter demo dev",
+    "lint": "eslint . --max-warnings=0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm --filter @forge-trial/sdk test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/node": "^22.7.5",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.10.0"
+  }
+}

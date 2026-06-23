@@ -1,0 +1,53 @@
+[
+  {
+    "type": "function",
+    "name": "feeTo",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [{ "name": "", "type": "address" }]
+  },
+  {
+    "type": "function",
+    "name": "owner",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [{ "name": "", "type": "address" }]
+  },
+  {
+    "type": "function",
+    "name": "allPoolsLength",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [{ "name": "", "type": "uint256" }]
+  },
+  {
+    "type": "function",
+    "name": "allPools",
+    "stateMutability": "view",
+    "inputs": [{ "name": "index", "type": "uint256" }],
+    "outputs": [{ "name": "pool", "type": "address" }]
+  },
+  {
+    "type": "function",
+    "name": "getPool",
+    "stateMutability": "view",
+    "inputs": [
+      { "name": "tokenA", "type": "address" },
+      { "name": "tokenB", "type": "address" },
+      { "name": "fee", "type": "uint24" }
+    ],
+    "outputs": [{ "name": "pool", "type": "address" }]
+  },
+  {
+    "type": "event",
+    "name": "PoolCreated",
+    "anonymous": false,
+    "inputs": [
+      { "name": "token0", "type": "address", "indexed": true },
+      { "name": "token1", "type": "address", "indexed": true },
+      { "name": "fee", "type": "uint24", "indexed": true },
+      { "name": "pool", "type": "address", "indexed": false },
+      { "name": "poolType", "type": "uint8", "indexed": false }
+    ]
+  }
+]
